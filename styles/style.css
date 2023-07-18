@@ -76,6 +76,21 @@ color: #F948B2 ;
     font-size: 20px;
 font-weight: 500;
 }
+.sign-btn, .go-btn{
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: 0;
+padding: 21px 40px;
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+margin-top: 40px;
+}
+.go-btn{
+    border-radius: 48px;
+background: #4EC5F7;
+}
 
 @media screen and (max-width: 576px) {
     nav, .nav-items ul, .banner{
