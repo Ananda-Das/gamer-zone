@@ -313,10 +313,10 @@ footer .game-types p {
     width: 70%;
   }
   .overlap-img {
-    bottom: -44px;
-    width: 30%;
+    bottom: -90px;
+    width: 40%;
     height: 70%;
-    left: 9px;
+    left: 11px;
   }
   .games-type-container {
     display: grid;
@@ -327,10 +327,13 @@ footer .game-types p {
   .game-type-item {
     gap: 1px;
   }
+  .game-type-item img {
+    width: 42%;
+  }
   .game-type-item:hover {
     padding: 0px;
   }
-  .game-text{
+  .game-text {
     font-size: 12px;
   }
   footer {
@@ -374,13 +377,16 @@ footer .game-types p {
   .banner-img img {
     width: 100%;
   }
-  .play-instant-img{
+  .online-games{
+    width: 99%;
+  }
+  .play-instant-img {
     margin-top: 90px;
   }
   .main-img {
     width: 95%;
   }
-  .overlap-img{
+  .overlap-img {
     width: 65%;
     left: -70px;
   }
@@ -390,7 +396,7 @@ footer .game-types p {
   .overlay-text {
     top: 62%;
   }
-  footer{
+  footer {
     padding: 30px 0px;
   }
 }
