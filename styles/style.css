@@ -15,6 +15,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 15px;
 }
 .logo{
     display: flex;
@@ -133,15 +134,72 @@ margin-bottom: 48px;
 .play-instant-container{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 120px;
     margin-top: 120px;
 }
-.overlap-img{
+.play-instant-img{
     position: relative;
-    bottom: 284px;
-    right: 145px;
+    margin-bottom: 150px;
 }
+.overlap-img{
+    position: absolute;
+    bottom: -79px;
+    left: -140px;
+}
+
+/* games types styles */
+.games-type-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    justify-self: unset;
+}
+.game-type-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer section styles */
+footer{
+    padding: 120px 300px;
+    text-align: center;
+    background: #0B0223;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer .logo-text{
+    color: white;
+}
+footer .game-types{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer .game-types p{
+    margin-left: 15px;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.terms p{
+    margin-left: 15px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 15px;
+}
+
 
 
 @media screen and (max-width: 576px) {
