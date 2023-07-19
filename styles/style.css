@@ -156,15 +156,15 @@ main {
   border: 5px solid #f948b2;
 }
 .overlay-icon {
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    font-size: 25px;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
 }
 .overlay-text {
   position: absolute;
@@ -304,12 +304,59 @@ footer .game-types p {
   .play-instant-container {
     text-align: center;
   }
+  .online-games-title, .games-description{
+    text-align: center;
+  }
   .main-img {
     width: 70%;
   }
   .overlap-img {
-    width: 40%;
-    bottom: 145px;
-    right: 120px;
+    bottom: -44px;
+    width: 30%;
+    height: 70%;
+    left: 9px;
+  }
+  .games-type-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 0;
+  }
+  .game-type-item {
+    gap: 1px;
+  }
+  .game-type-item:hover {
+    padding: 0px;
+  }
+  footer {
+    padding: 70px 90px;
+  }
+  footer .game-types,
+  .social-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-top: 15px;
+    align-items: center;
+    width: 100%;
+  }
+  footer .game-types p {
+    margin: 20px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .social-icons i {
+    font-size: 26px;
+    margin: 20px;
+  }
+  .terms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .terms p {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 11px;
+    margin-bottom: 10px;
   }
 }
