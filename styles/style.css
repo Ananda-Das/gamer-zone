@@ -304,7 +304,8 @@ footer .game-types p {
   .play-instant-container {
     text-align: center;
   }
-  .online-games-title, .games-description{
+  .online-games-title,
+  .games-description {
     text-align: center;
   }
   .main-img {
@@ -327,6 +328,9 @@ footer .game-types p {
   }
   .game-type-item:hover {
     padding: 0px;
+  }
+  .game-text{
+    font-size: 12px;
   }
   footer {
     padding: 70px 90px;
@@ -358,5 +362,34 @@ footer .game-types p {
     font-weight: 500;
     font-size: 11px;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 962px) {
+  .banner-text {
+    width: 55%;
+    padding: 5px 10px;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .play-instant-img{
+    margin-top: 90px;
+  }
+  .main-img {
+    width: 95%;
+  }
+  .overlap-img{
+    width: 65%;
+    left: -70px;
+  }
+  .overlay {
+    height: 85%;
+  }
+  .overlay-text {
+    top: 62%;
+  }
+  footer{
+    padding: 30px 0px;
   }
 }
